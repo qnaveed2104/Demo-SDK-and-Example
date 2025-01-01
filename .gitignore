@@ -2,6 +2,7 @@
 *.xcworkspace
 *.xcuserdata/
 *.xcscmblueprint
+*.xcuserstate
 
 # Derived data and archives
 DerivedData/
