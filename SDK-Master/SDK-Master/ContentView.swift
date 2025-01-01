@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MyLibrary
 
 struct ContentView: View {
     let drawShape: DrawShape = DrawShape(config: ShapeConfig())

@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		709275882D255FE40008DFBA /* MyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 709275872D255FE40008DFBA /* MyLibrary */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7092741C2D253C330008DFBA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				709275882D255FE40008DFBA /* MyLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = "SDK-Master";
 			packageProductDependencies = (
+				709275872D255FE40008DFBA /* MyLibrary */,
 			);
 			productName = "SDK-Master";
 			productReference = 7092740B2D253C320008DFBA /* SDK-Master.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 709274022D253C320008DFBA;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				709275862D255FE40008DFBA /* XCLocalSwiftPackageReference "../../../MyLibrary" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7092740C2D253C320008DFBA /* Products */;
 			projectDirPath = "";
@@ -552,6 +561,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		709275862D255FE40008DFBA /* XCLocalSwiftPackageReference "../../../MyLibrary" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../../MyLibrary;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		709275872D255FE40008DFBA /* MyLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 709274032D253C320008DFBA /* Project object */;
 }
