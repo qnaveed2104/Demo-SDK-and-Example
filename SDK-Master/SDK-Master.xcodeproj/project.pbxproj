@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		709274A42D2547030008DFBA /* SDKPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 709274A32D2547030008DFBA /* SDKPackage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7092741C2D253C330008DFBA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		7092740B2D253C320008DFBA /* SDK-Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDK-Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7092741B2D253C330008DFBA /* SDK-MasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDK-MasterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		709274252D253C330008DFBA /* SDK-MasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDK-MasterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		709274A12D2545E00008DFBA /* SDKPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SDKPackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				709274A42D2547030008DFBA /* SDKPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +81,11 @@
 		709274022D253C320008DFBA = {
 			isa = PBXGroup;
 			children = (
+				709274A12D2545E00008DFBA /* SDKPackage */,
 				7092740D2D253C320008DFBA /* SDK-Master */,
 				7092741E2D253C330008DFBA /* SDK-MasterTests */,
 				709274282D253C330008DFBA /* SDK-MasterUITests */,
+				709274A22D2547030008DFBA /* Frameworks */,
 				7092740C2D253C320008DFBA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +98,13 @@
 				709274252D253C330008DFBA /* SDK-MasterUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		709274A22D2547030008DFBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +127,7 @@
 			);
 			name = "SDK-Master";
 			packageProductDependencies = (
+				709274A32D2547030008DFBA /* SDKPackage */,
 			);
 			productName = "SDK-Master";
 			productReference = 7092740B2D253C320008DFBA /* SDK-Master.app */;
@@ -552,6 +568,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		709274A32D2547030008DFBA /* SDKPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SDKPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 709274032D253C320008DFBA /* Project object */;
 }

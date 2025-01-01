@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SDKPackage
 
 struct ContentView: View {
     let drawShape: DrawShape = DrawShape(config: ShapeConfig())
