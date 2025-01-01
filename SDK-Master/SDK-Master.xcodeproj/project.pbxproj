@@ -33,9 +33,22 @@
 		709274252D253C330008DFBA /* SDK-MasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDK-MasterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		709274C72D254B400008DFBA /* Exceptions for "SDK-Master" folder in "SDK-Master" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				SDKPackage,
+			);
+			target = 7092740A2D253C320008DFBA /* SDK-Master */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7092740D2D253C320008DFBA /* SDK-Master */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				709274C72D254B400008DFBA /* Exceptions for "SDK-Master" folder in "SDK-Master" target */,
+			);
 			path = "SDK-Master";
 			sourceTree = "<group>";
 		};
