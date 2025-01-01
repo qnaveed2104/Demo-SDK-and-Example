@@ -31,7 +31,6 @@
 		7092740B2D253C320008DFBA /* SDK-Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDK-Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7092741B2D253C330008DFBA /* SDK-MasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDK-MasterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		709274252D253C330008DFBA /* SDK-MasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDK-MasterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		709274A12D2545E00008DFBA /* SDKPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SDKPackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -81,7 +80,6 @@
 		709274022D253C320008DFBA = {
 			isa = PBXGroup;
 			children = (
-				709274A12D2545E00008DFBA /* SDKPackage */,
 				7092740D2D253C320008DFBA /* SDK-Master */,
 				7092741E2D253C330008DFBA /* SDK-MasterTests */,
 				709274282D253C330008DFBA /* SDK-MasterUITests */,
