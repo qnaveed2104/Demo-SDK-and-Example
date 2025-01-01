@@ -1,0 +1,18 @@
+# Xcode-specific files
+*.xcworkspace
+*.xcuserdata/
+*.xcscmblueprint
+
+# Derived data and archives
+DerivedData/
+*.xcarchive
+
+# Cocoapods
+Pods/
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# Carthage
+Carthage/Build/
