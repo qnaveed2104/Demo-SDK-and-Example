@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    let drawShape: DrawShape = DrawShape(config: ShapeConfig())
     var body: some View {
         VStack {
+            drawShape.drawShapeHorizontally()
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
