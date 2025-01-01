@@ -1,8 +1,13 @@
 # Xcode-specific files
 *.xcworkspace
 *.xcuserdata/
+*.xcuserdatad/
 *.xcscmblueprint
 *.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/*/*.xcuserdatad/
+*.xcworkspace/xcuserdata/*/*.xcuserdatad/*.xcuserstate
+
 
 # Derived data and archives
 DerivedData/
